@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\bin\Debug\TurtleMasterConsoleAPp.exe.config
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\bin\Debug\TurtleMasterConsoleAPp.exe
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\bin\Debug\TurtleMasterConsoleAPp.pdb
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\obj\Debug\TurtleMasterConsoleAPp.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\obj\Debug\TurtleMasterConsoleAPp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\obj\Debug\TurtleMasterConsoleAPp.exe
+C:\Users\Admin\source\repos\TurtleMasterConsoleAPp\TurtleMasterConsoleAPp\obj\Debug\TurtleMasterConsoleAPp.pdb

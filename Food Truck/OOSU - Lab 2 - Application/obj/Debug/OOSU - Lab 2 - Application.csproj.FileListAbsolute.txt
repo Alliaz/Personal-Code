@@ -1,0 +1,23 @@
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\bin\Debug\OOSU - Lab 2 - Application.exe.config
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\bin\Debug\OOSU - Lab 2 - Application.exe
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\bin\Debug\OOSU - Lab 2 - Application.pdb
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.csprojResolveAssemblyReference.cache
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.Form1.resources
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.Properties.Resources.resources
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.csproj.GenerateResource.Cache
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.exe
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.pdb
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.Form2.resources
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\bin\Debug\OOSU - Lab 2 - Application.exe.config
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\bin\Debug\OOSU - Lab 2 - Application.exe
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\bin\Debug\OOSU - Lab 2 - Application.pdb
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.Properties.Resources.resources
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.csproj.GenerateResource.Cache
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.exe
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.pdb
+C:\Users\lluca\Documents\Visual Studio 2015\Projects\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.Form3.resources
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.FormMenu.resources
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.FormLogin.resources
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU___Lab_2___Application.FormÖvrigFörare.resources
+C:\Users\Admin\source\repos\OOSU - Lab 2 - Application\OOSU - Lab 2 - Application\obj\Debug\OOSU - Lab 2 - Application.csprojAssemblyReference.cache

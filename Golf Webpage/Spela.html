@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROR GOLF & COUNTRY CLUB</title>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sunflower' rel='stylesheet'>
+</head>
+<body>
+    <div class="topmeny">
+
+    </div>
+    <header>
+        <div class="nav">
+
+            <a href="index.html">
+                <img id="logga" src="img/logo.png" alt="Loggotypbild för golfklubben" />
+            </a>
+
+            <ul id="listNav">
+                <li><a href="index.html">HEM</a></li>
+                <li class="active"><a href="Spela.html">SPELA</a></li>
+                <li><a href="compete.html">TÄVLA</a></li>
+                <li><a href="Medlem.html">BLI MEDLEM</a></li>
+                <li><a href="Greenfee.html">GREENFEE</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button onclick="dropDownFunction()" class="dropbtn"><b>_____</b><br /><b>_____</b><br /><b>_____</b></button>
+                <div id="dropDownMeny" class="dropdown-content">
+                    <a href="index.html">HEM</a>
+                    <a href="Spela.html">SPELA</a>
+                    <a href="Medlem.html">BLI MEDLEM</a>
+                    <a href="Greenfee.html">GREENFEE</a>
+                    <a href="compete.html">TÄVLA</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <div class="searchDiv">
+
+        <input type="text" placeholder="Sökord..." />
+        <button type="submit" class="searchbutton">Sök</button>
+
+    </div>
+
+
+
+    <img id="general" src="img/Spelabild.jpg" alt="Bild på en person som sätter en golfboll på en golfpeg. Personen håller i en järnklubba." />
+
+    <div class="smallContentDiv">
+
+        <p class="HuvudRubrik">Tidsbokning</p>
+        <p class="normalText">
+            Boka via receptionen &ensp;|&ensp; 0321-4040405<br />
+            Boka tid online &ensp;|&ensp; <a href="https://www9.golf.se/login.aspx?ReturnUrl=%2f">Klicka här</a>
+        </p>
+        <p class="HuvudRubrik">Bokningsstatus</p>
+        <p class="normalText">Just nu finns det lediga tider kvar för denna vecka</p>
+
+    </div>
+
+    <div class="largeContentDiv">
+
+        <p class="HuvudRubrik">Lediga tider för träning</p>
+        <p class="normalText">
+            <br />  Boka via receptionen:  0321-4040405 eller via e-post:  BrorGK@Brorgolf.se <br /><br />
+            Datum och tid: 31 oktober, kl 11:00 <br />
+            Träningsform: Gruppträning <br />
+            Instruktör: Ogge Lygren <br />
+            Antal platser: 15 st    <br />
+            Plats: Rangen<br />
+            Pris: 450 kr </p>
+
+
+    </div>
+
+    <div class="footer">
+
+
+        <p id="kontaktInfo">
+            Kontakta oss: &ensp;|&ensp; 0321-4040405<br />
+            E-post: &ensp;|&ensp; BrorGK@Brorgolf.se<br />
+            Adress: &ensp;|&ensp; Brorgatan 69, 49490 Broran
+        </p>
+    </div>
+
+
+
+    <script>
+
+        function dropDownFunction() {
+            document.getElementById("dropDownMeny").classList.toggle("visa");
+        }
+
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('visa')) {
+                        openDropdown.classList.remove('visa');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+

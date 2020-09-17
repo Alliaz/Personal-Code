@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROR GOLF & COUNTRY CLUB</title>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sunflower' rel='stylesheet'>
+</head>
+<body>
+    <div class="topmeny">
+
+    </div>
+    <header>
+        <div class="nav">
+
+            <a href="index.html">
+            <img id="logga" src="img/logo.png" alt ="Loggotypbild för golfklubben" />
+            </a>
+
+                <ul id="listNav">
+                    <li class="active"><a href="index.html">HEM</a></li>
+                    <li><a href="Spela.html">SPELA</a></li>
+                    <li><a href="compete.html">TÄVLA</a></li>
+                    <li><a href="Medlem.html">BLI MEDLEM</a></li>
+                    <li><a href="Greenfee.html">GREENFEE</a></li>
+                </ul>
+
+                <div class="dropdown">
+                    <button onclick="dropDownFunction()" class="dropbtn"><b>_____</b><br /><b>_____</b><br /><b>_____</b></button>
+                    <div id="dropDownMeny" class="dropdown-content">
+                        <a href="index.html">HEM</a>
+                        <a href="Spela.html">SPELA</a>
+                        <a href="Medlem.html">BLI MEDLEM</a>
+                        <a href="Greenfee.html">GREENFEE</a>
+                        <a href="compete.html">TÄVLA</a>
+                    </div>
+                </div>
+
+
+        </div>
+
+
+    </header>
+
+    <div class="searchDiv">
+
+        <input type="text" placeholder="Sökord..." />
+        <button type="submit" class="searchbutton">Sök</button>
+
+    </div>
+
+
+
+    <img id="general" src="img/indexBild.png" alt="Golfbana, ett vy över ett hål på nära avstånd." />
+
+    <div class="smallContentDiv">
+
+        <p class="HuvudRubrik">Öppettider Klubbhus</p>
+        <p class="normalText">Vardagar 08:00-20:00 &ensp;|&ensp; Helger 09:00-18:00</p>
+        <p class="HuvudRubrik">Öppettider Restaurang</p>
+        <p class="normalText">Vardagar 10:00-18:00 &ensp;|&ensp; Helger 10:00-17:00</p>
+        <p class="HuvudRubrik">Öppettider Kiosk</p>
+        <p class="normalText">Vardagar 09:00-20:00 &ensp;|&ensp; Helger 10:00-18:00</p>
+
+    </div>
+
+    <div class="largeContentDiv">
+
+        <p class="HuvudRubrik">Aktuell Banstatus</p>
+        <p class="normalText">
+            18-hålsbanan LångSomFan &emsp;&emsp;|&emsp;&emsp; Öppen
+            <br>9-hålsbanan SlåLiteKortare &emsp;&emsp;|&emsp;&emsp; Öppen <br />
+        </p>
+        <p class="HuvudRubrik">Senaste informationen</p>
+        <p class="normalText">
+            Från och med vecka 40 (1 oktober) och fram till och med vecka 46 (mitten av november) <br />
+            planerar vi att renovera bunkrarna på hål 1, 2, 3, 10 och 11. <br />
+            Det betyder att samtliga av de återstående bunkrarna inom vattenskyddsområdet (dvs alla hål förutom hål 4-9) <br />
+            kommer vara klara till säsongen 2019. <br />
+            Vi får hoppas att vädrets makter är med oss så att det inte blir några stora komplikationer och tidsfördröjningar.<br />
+        </p>
+
+    </div>
+
+
+
+    <div class="footer">
+
+
+
+        <p id="kontaktInfo">
+            Kontakta oss: &ensp;|&ensp; 0321-4040405<br />
+            E-post: &ensp;|&ensp; BrorGK@Brorgolf.se<br />
+            Adress: &ensp;|&ensp; Brorgatan 69, 49490 Broran
+        </p>
+
+
+    </div>
+
+
+
+    <script>
+
+        function dropDownFunction() {
+            document.getElementById("dropDownMeny").classList.toggle("visa");
+        }
+
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('visa')) {
+                        openDropdown.classList.remove('visa');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{CFEAF1C0-AB2E-481C-BA5D-6155C3631BA6}"
+	ProjectSection(SolutionItems) = preProject
+		Main.css = Main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{AE2A46D6-CC67-4542-A3B4-AB55AF6BCC34}"
+	ProjectSection(SolutionItems) = preProject
+		compete.html = compete.html
+		Greenfee.html = Greenfee.html
+		index.html = index.html
+		Medlem.html = Medlem.html
+		Spela.html = Spela.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{E3A20FDB-679C-4184-B829-6581D5F4B3CA}"
+	ProjectSection(SolutionItems) = preProject
+		img\greenfeebanner.jpg = img\greenfeebanner.jpg
+		img\indexBild.png = img\indexBild.png
+		img\Klubbhus.jpg = img\Klubbhus.jpg
+		img\logo.png = img\logo.png
+		img\nordeamasters.png = img\nordeamasters.png
+		img\Spelabild.jpg = img\Spelabild.jpg
+		img\Tävling.jpg = img\Tävling.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801853D2-9D4E-4EE7-9580-90586CD24BAA}
+	EndGlobalSection
+EndGlobal

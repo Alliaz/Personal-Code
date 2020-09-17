@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROR GOLF & COUNTRY CLUB</title>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sunflower' rel='stylesheet'>
+</head>
+<body>
+    <div class="topmeny">
+
+    </div>
+    <header>
+        <div class="nav">
+
+            <a href="index.html">
+                <img id="logga" src="img/logo.png" alt="Loggotypbild för golfklubben" />
+            </a>
+
+            <ul id="listNav">
+                <li><a href="index.html">HEM</a></li>
+                <li><a href="Spela.html">SPELA</a></li>
+                <li><a href="compete.html">TÄVLA</a></li>
+                <li class="active"><a href="Medlem.html">BLI MEDLEM</a></li>
+                <li><a href="Greenfee.html">GREENFEE</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button onclick="dropDownFunction()" class="dropbtn"><b>_____</b><br /><b>_____</b><br /><b>_____</b></button>
+                <div id="dropDownMeny" class="dropdown-content">
+                    <a href="index.html">HEM</a>
+                    <a href="Spela.html">SPELA</a>
+                    <a href="Medlem.html">BLI MEDLEM</a>
+                    <a href="Greenfee.html">GREENFEE</a>
+                    <a href="compete.html">TÄVLA</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <div class="searchDiv">
+
+        <input type="text" placeholder="Sökord..." />
+        <button type="submit" class="searchbutton">Sök</button>
+
+    </div>
+
+
+
+    <img id="general" src="img/Klubbhus.jpg" alt="En bild på ett golf klubbhus" />
+
+    <div class="smallContentDiv">
+
+        <p class="HuvudRubrik">Ansök om medlemsskap</p>
+        <form class="medlemsform">
+            <a>Förnamn:<br></a>
+            <input type="text" name="förnamn" value=""><br>
+            <a>Efternamn:<br></a>
+            <input type="text" name="efternamn" value=""><br>
+            <a>Önskad medlemstyp:<br></a>
+            <input type="text" name="medTyp" value=""><br>
+            <a>Telefonnummer:<br></a>
+            <input type="text" name="tel" value=""><br>
+            <a>E-post:<br></a>
+            <input type="text" name="epost" value=""><br><br>
+            <input type="submit" value="Skicka">
+        </form>
+
+    </div>
+
+    <div class="largeContentDiv">
+
+        <div class="innerdiv">
+
+            <p class="HuvudRubrik">Fullvärdig medlem <br /></p>
+            <p class="PrisRubrik">Pris 9300 kr <br />
+            <p class="normalText">
+                Obegränsat spel <br />
+                Greenfeeförmåner hos våra partnerklubbar. <br /> <br />
+                Möjlighet att före andra medlemsformer och gäster boka ”primetime”-tiderlördag och söndag 09-11,00.
+            </p>
+
+
+
+        </div>
+        <div class="innerdiv">
+
+            <p class="HuvudRubrik">Vardagsmedlem</p>
+            <p class="PrisRubrik">Pris 6900 kr <br />
+            <p class="normalText">
+                Fritt spel på helgfri vardag(mån-fredag) Ingen greenfee. <br /><br />
+
+                Spel på lördag, söndag eller helgdag för rabatterad greenfee kostnad.
+            </p>
+
+        </div>
+        <div class="innerdiv">
+
+            <p class="HuvudRubrik">Greenfeemedlem</p>
+            <p class="PrisRubrik">Pris 2950 kr <br />
+            <p class="normalText">
+                Rabatterad greenfee på båda banorna. Pris hittar du under fliken greenfee. <br /><br />
+
+                Inkluderar 2 fria spel under året på någon av banorna, oavsett dag.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <p id="kontaktInfo">
+            Kontakta oss: &ensp;|&ensp; 0321-4040405<br />
+            E-post: &ensp;|&ensp; BrorGK@Brorgolf.se<br />
+            Adress: &ensp;|&ensp; Brorgatan 69, 49490 Broran
+        </p>
+    </div>
+
+
+
+    <script>
+
+        function dropDownFunction() {
+            document.getElementById("dropDownMeny").classList.toggle("visa");
+        }
+
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('visa')) {
+                        openDropdown.classList.remove('visa');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,425 @@
+﻿body {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    font-family: 'Sunflower';
+}
+
+div.topmeny {
+    width: 100%;
+    color: #004349;
+    background-color: #004349;
+    clear: right;
+    min-height: 35px;
+}
+
+div.nav {
+    width: 65%;
+    color: white;
+    background-color: white;
+    min-height: 100px;
+    height: 150px;
+    max-height: 150px;
+    float: left;
+}
+
+div.searchDiv {
+    width: 35%;
+    color: white;
+    float: left;
+    background-color: white;
+    min-height: 100px;
+    height: 150px;
+    max-height: 150px;
+}
+
+.searchDiv input[type=text] {
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 40%;
+    border: 1px solid black;
+    float: left;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.searchDiv button {
+    width: 50px;
+    float: left;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+img#logga {
+    margin-left: 6%;
+    float: left;
+    width: 150px;
+    height: 150px;
+    color: black;
+}
+
+ul#listNav {
+    list-style-type: none;
+    margin-left: 10%;
+    float: left;
+    padding: 0;
+    margin-top: 60px;
+}
+
+    ul#listNav li {
+        display: inline-block;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+        ul#listNav a {
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            padding-right: 20px;
+            background-color: white;
+            color: black;
+            border-radius: 8px;
+        }
+            ul#listNav li a:hover {
+                color: steelblue;
+            }
+div.nav .active{
+    text-decoration:underline;
+}
+img#general {
+    width: 100%;
+    height: auto;
+    float: right;
+}
+img#NordMast {
+    width: 100%;
+    height: auto;
+    float: right;
+}
+div.competeBild {
+    width: 30%;
+    color: white;
+    background-color: white;
+    float: left;
+    min-height: 300px;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    border-radius: 8px;
+    
+}
+p#CompeteRubrik {
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    color: black;
+    
+}
+p#Competestext {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    color: black;
+    
+}
+div.CompeteInformation {
+    width: 50%;
+    color: white;
+    background-color: white;
+    float: right;
+    min-height: 350px;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    border-radius: 8px;
+}
+div.smallContentDiv {
+    width: 30%;
+    color: white;
+    background-color: white;
+    float: left;
+    min-height: 350px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    border-radius: 0px;
+    border-right: 2px solid #004349;
+}
+p.HuvudRubrik {
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    color: black;
+    float: left;
+    clear: right;
+    text-align: left;
+}
+
+p.normalText {
+    font-size: 18px;
+    width: 100%;
+    color: black;
+    float: left;
+    clear: left;
+    margin-top: -3%;
+    text-align: left;
+}
+
+p#banStatusRubrik {
+    color: black;
+    float: left;
+    clear: right;
+    text-align: left;
+}
+p#banStatusText {
+    color: black;
+    float: left;
+    clear: left;
+    margin-top: -1.5%;
+    text-align: left;
+}
+div.largeContentDiv {
+    width: 50%;
+    color: white;
+    background-color: white;
+    float: right;
+    min-height: 350px;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    border-radius: 8px;
+}
+div.innerdiv{
+    min-height:350px;
+    width: 30%;
+    margin-right:3%;
+    float:left;
+
+}
+p.PrisRubrik{
+    font-size:20px;
+    color:black;
+}
+
+div.footer {
+    width: 100%;
+    color: #004349;
+    background-color: #004349;
+    float: left;
+    min-height: 100px;
+}
+p#kontaktInfo {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    clear: left;
+}
+}
+form.medlemsform {
+    width: 500px;
+    float: left;
+    font-size: 17px;
+    color:black;
+}
+form.medlemsform a{
+    color:black;
+}
+
+    .dropbtn {
+    background-color: white;
+    color: black;
+    background: none;
+    box-shadow: none;
+    border: none;
+    margin-left: 30px;
+    padding: 8px;
+    padding-bottom: 27px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    visibility: hidden;
+    margin-top: 50px;
+}
+
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #004349;
+        }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 2px solid #004349;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd
+        }
+
+.visa {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    color:black;
+    transform: scale(1.1);
+    margin-top: 7%;
+    margin-right: 3%;
+    float:left;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width:1800px) {
+    ul#listNav {
+        list-style-type: none;
+        margin-left: 10%;
+        float: left;
+        padding: 0;
+        margin-top: 60px;
+    }
+
+        ul#listNav li {
+            display: inline-block;
+            padding-right: 20px;
+            text-align: center;
+        }
+
+            ul#listNav li a {
+                text-align: center;
+                text-decoration: none;
+                font-size: 25px;
+                padding-right: 20px;
+                background-color: white;
+                color: black;
+                border-radius: 8px;
+            }
+}
+
+@media only screen and (max-width:1600px) {
+    ul#listNav {
+        list-style-type: none;
+        margin-left: 10%;
+        float: left;
+        padding: 0;
+        margin-top: 65px;
+    }
+
+        ul#listNav li {
+            display: inline-block;
+            padding-right: 10px;
+            text-align: center;
+        }
+
+            ul#listNav li a {
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                padding-right: 10px;
+                background-color: white;
+                color: black;
+                border-radius: 8px;
+            }
+
+    .searchDiv input[type=text] {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:1240px) {
+    .dropbtn {
+        visibility: visible;
+        margin-top: 35px;
+    }
+
+    .searchDiv input[type=text] {
+        width: 175px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    div.smallContentDiv, div.largeContentDiv {
+        width: 90%;
+    }
+    div.smallContentDiv {
+        border-bottom: 2px solid #004349;
+        border-right: 0px solid #004349
+    }
+        img#logga {
+            width: 100px;
+            height: 100px;
+        }
+
+            div.nav, div.searchDiv {
+                height: 100px;
+            }
+
+                .dropbtn {
+                    visibility: visible;
+                    margin-top: 5px;
+                    transform: scale(0.5);
+                    margin-left: 15px;
+                }
+
+                    .searchDiv input[type=text] {
+                        width: 175px;
+                        margin-top: 35px;
+                    }
+
+                        .searchDiv button {
+                            margin-top: 35px;
+                        }
+                                div.innerdiv{
+                                    width: 90%;
+                                }
+                    }
+
+   @media only screen and (max-width:700px) {
+
+          .searchDiv input[type=text] {
+               width: 75px;
+               margin-top: 35px;
+            }
+
+           .searchDiv button {
+             margin-top: 35px;
+          }
+   table{
+       transform: scale(0.8);
+   }
+}

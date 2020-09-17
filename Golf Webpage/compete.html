@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROR GOLF & COUNTRY CLUB</title>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sunflower' rel='stylesheet'>
+</head>
+<body>
+    <div class="topmeny">
+
+    </div>
+    <header>
+        <div class="nav">
+
+            <a href="index.html">
+                <img id="logga" src="img/logo.png" alt="Loggotypbild för golfklubben" />
+            </a>
+
+            <ul id="listNav">
+                <li><a href="index.html">HEM</a></li>
+                <li><a href="Spela.html">SPELA</a></li>
+                <li class="active"><a href="compete.html">TÄVLA</a></li>
+                <li><a href="Medlem.html">BLI MEDLEM</a></li>
+                <li><a href="Greenfee.html">GREENFEE</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button onclick="dropDownFunction()" class="dropbtn"><b>_____</b><br /><b>_____</b><br /><b>_____</b></button>
+                <div id="dropDownMeny" class="dropdown-content">
+                    <a href="index.html">HEM</a>
+                    <a href="Spela.html">SPELA</a>
+                    <a href="Medlem.html">BLI MEDLEM</a>
+                    <a href="Greenfee.html">GREENFEE</a>
+                    <a href="compete.html">TÄVLA</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <div class="searchDiv">
+
+        <input type="text" placeholder="Sökord..." />
+        <button type="submit" class="searchbutton">Sök</button>
+
+    </div>
+
+
+
+    <img id="general" src="img/Tävling.jpg" alt="Henrik Stensson, proffesionell golfare på bild" />
+
+    <div class="competeBild">
+
+        <img id="NordMast" src="img/nordeamasters.png" alt="Nordea masters logga" />
+
+    </div>
+
+    <div class="CompeteInformation">
+
+        <p id="CompeteRubrik">Nordea Masters 2019</p>
+        <p id="Competestext">
+            Årets Nordea Masters på Bror GK levererade på otroligt många plan.
+            Ingen annan bana i Sverige kan erbjuda lika bra stämning runt klubbhuset som Bror GK, med hela sju hål synliga från en och samma plats.
+            Kanske just detta är nyckeln till evenemangets framgång, att publik såväl som spelare nästan hela tiden känner närhet till dramatik och spänning.
+            Vi tror också att upplevelsen i Bror GK Village och Kids Park spelade stor roll för upplevelsen, det var alltid nära till underhållning, mat och dryck.<br /><br />
+            Välkomna tillbaka till Bror GK och 2019 års golffest med dramatik, adrenalin och en upplevelse i världsklass!<br /><br />
+            Datum: 7 Juli, 2019 <br />
+            Registrering öppnar: 25 Januari, 2019
+        </p>
+
+
+    </div>
+
+    <div class="footer">
+
+        <p id="kontaktInfo">
+            Kontakta oss: &ensp;|&ensp; 0321-4040405<br />
+            E-post: &ensp;|&ensp; BrorGK@Brorgolf.se<br />
+            Adress: &ensp;|&ensp; Brorgatan 69, 49490 Broran
+        </p>
+    </div>
+
+
+
+    <script>
+
+        function dropDownFunction() {
+            document.getElementById("dropDownMeny").classList.toggle("visa");
+        }
+
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('visa')) {
+                        openDropdown.classList.remove('visa');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+
