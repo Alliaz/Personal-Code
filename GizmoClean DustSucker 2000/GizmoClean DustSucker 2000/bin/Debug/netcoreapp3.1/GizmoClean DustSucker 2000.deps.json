@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GizmoClean DustSucker 2000/1.0.0": {
+        "runtime": {
+          "GizmoClean DustSucker 2000.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GizmoClean DustSucker 2000/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
