@@ -1,0 +1,21 @@
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\bin\Debug\OOSU2 - Lab 1 - Application.exe.config
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\bin\Debug\OOSU2 - Lab 1 - Application.exe
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\bin\Debug\OOSU2 - Lab 1 - Application.pdb
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.csprojResolveAssemblyReference.cache
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2___Lab_1___Application.Login.resources
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2___Lab_1___Application.Properties.Resources.resources
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2___Lab_1___Application.SystemApp.resources
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.csproj.GenerateResource.Cache
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.exe
+c:\users\lluca\documents\visual studio 2015\Projects\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.pdb
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2___Lab_1___Application.Login.resources
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2___Lab_1___Application.Properties.Resources.resources
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2___Lab_1___Application.SystemApp.resources
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.csproj.GenerateResource.Cache
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.exe
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\obj\Debug\OOSU2 - Lab 1 - Application.pdb
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\bin\Debug\OOSU2 - Lab 1 - Application.exe.config
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\bin\Debug\OOSU2 - Lab 1 - Application.exe
+C:\Users\Admin\source\repos\OOSU2 - Lab 1 - Application\OOSU2 - Lab 1 - Application\bin\Debug\OOSU2 - Lab 1 - Application.pdb
